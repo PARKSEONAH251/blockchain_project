@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Style/Sign.css';
-import GenesisLogo from '../Image/genesisLogo.jpg'
+import EasyLogin from '../Image/btn_login.png'
 const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,8 +32,8 @@ const Login = () => {
           <button type="button" className="wallet-btn" onClick={handleWalletConnect}>
             NFT Wallet Connection
           </button> */}
-          <button type="button" onClick={handleLogin} className="logo-button">
-            <img src={GenesisLogo} alt="Genesis Logo" />
+          <button className="easy-login-btn" onClick={handleLogin}>
+            <img src={EasyLogin} alt="간편로그인" />
           </button>
           <button type="submit">로그인</button>
         </form>

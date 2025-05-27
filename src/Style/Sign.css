@@ -88,6 +88,19 @@ button {
   margin-top: 11px;
 }
 
+/* 공통 스타일 덮어쓰기 */
+.easy-login-btn {
+  all: unset;
+  width: 100%;
+  padding: 13.2px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wallet-btn {
   background-color: white;
   color: #333949;
